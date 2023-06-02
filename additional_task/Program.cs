@@ -21,25 +21,33 @@
 // Примеры
 // №	                INPUT.TXT	         OUTPUT.TXT
 // 1	                  4
-//                       1 2 3 4	             9
+//                       1 2 3 4	             10
+
 // 2	                  3
 //                       1 2 3	                 6
 
 Console.Clear();
 Console.Write("Количество кустов: ");
-int N = int.Parse(Console.ReadLine()!);
+int N = int.Parse(Console.ReadLine()!);              // 3 <= N <= 1000; Как указать этот интервал?
+for (int i = 3; i <= 1; i++);                       
 
-N = Math.Abs(N); // Модуль числа
-for (int i = 1; i <= 1; i++)
-Console.Write("Количество ягод на каждом кусте: ");
-for (int i = 1; i <= N; i++)
-Console.Write($"{ i} ");
-Console.ReadLine()! = Console.Write($"{ i} ");
-// Console.Write("Число ягод растущее на кусте: ");
-string number = Console.ReadLine()!;
+Console.Write("Количество ягод на каждом кусте: ");  
+for (int i = 1; i <= N; i++)                         // i <= 1000    Как указать этот предел?
+Console.Write($"{i} "); 
+/*
+// Console.ReadLine()! = Console.Write($"{ i} ");
+string number = Console.ReadLine(($"{i} "))!;        // Почему i не  существует?
 int summa = 0;
 for (int i = 0; i < number.Length; i++)
+Console.WriteLine("Всего ягод: ");
 summa = summa + Convert.ToInt32(number[i].ToString());
 Console.WriteLine(summa);
 
 
+
+Console.Clear();
+Console.Write("Введите число: ");
+int n = int.Parse(Console.ReadLine()!);
+Console.WriteLine($"Сумма от 1 до {n}: {((n + 1) / 2.0) * n}");
+*/
+Console.WriteLine($"Всего ягод: {i}");                // Почему i не  существует?
