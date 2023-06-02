@@ -1,0 +1,15 @@
+C:\Users\Пользователь\Desktop\Общая\personal\homework_seminar_#3\task#19\obj\Debug\net6.0\task#19.csproj.AssemblyReference.cache
+C:\Users\Пользователь\Desktop\Общая\personal\homework_seminar_#3\task#19\obj\Debug\net6.0\task#19.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Пользователь\Desktop\Общая\personal\homework_seminar_#3\task#19\obj\Debug\net6.0\task#19.AssemblyInfoInputs.cache
+C:\Users\Пользователь\Desktop\Общая\personal\homework_seminar_#3\task#19\obj\Debug\net6.0\task#19.AssemblyInfo.cs
+C:\Users\Пользователь\Desktop\Общая\personal\homework_seminar_#3\task#19\obj\Debug\net6.0\task#19.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\Desktop\Общая\personal\homework_seminar_#3\task#19\bin\Debug\net6.0\task#19.exe
+C:\Users\Пользователь\Desktop\Общая\personal\homework_seminar_#3\task#19\bin\Debug\net6.0\task#19.deps.json
+C:\Users\Пользователь\Desktop\Общая\personal\homework_seminar_#3\task#19\bin\Debug\net6.0\task#19.runtimeconfig.json
+C:\Users\Пользователь\Desktop\Общая\personal\homework_seminar_#3\task#19\bin\Debug\net6.0\task#19.dll
+C:\Users\Пользователь\Desktop\Общая\personal\homework_seminar_#3\task#19\bin\Debug\net6.0\task#19.pdb
+C:\Users\Пользователь\Desktop\Общая\personal\homework_seminar_#3\task#19\obj\Debug\net6.0\task#19.dll
+C:\Users\Пользователь\Desktop\Общая\personal\homework_seminar_#3\task#19\obj\Debug\net6.0\refint\task#19.dll
+C:\Users\Пользователь\Desktop\Общая\personal\homework_seminar_#3\task#19\obj\Debug\net6.0\task#19.pdb
+C:\Users\Пользователь\Desktop\Общая\personal\homework_seminar_#3\task#19\obj\Debug\net6.0\task#19.genruntimeconfig.cache
+C:\Users\Пользователь\Desktop\Общая\personal\homework_seminar_#3\task#19\obj\Debug\net6.0\ref\task#19.dll
