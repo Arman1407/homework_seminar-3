@@ -4,29 +4,20 @@
 // 23432 -> да
 
 
-// Console.Clear();
-// Console.Write("Введите число: ");
-// int n = int.Parse(Console.ReadLine());
-// int i = 0;
+Console.Clear();
+Console.Write("Введите пятизначное число: ");
+int n = int.Parse(Console.ReadLine()!);
+
+if (i, (i + 1) == (i + 3), (i + 4)                                          // Почему i не существует?
+
+    Console.WriteLine("да - число является полиндромом");
+
+else
+    Console.WriteLine("нет - число не является полиндромом");
 
 
 
-// Console.Clear();
-// Console.Write("Введите число: ");
-// int n = int.Parse(Console.ReadLine()!);
-// n = Math.Abs(n);   // указывает на отрицательные числа, можно ибез неё
-// // if (n < 100)
-// //     Console.WriteLine("Третьей цифры нет");
-// else
-// {
-//     while (n > 999)   // т.к. 1000 четырехзначное исло
-//     {
-//         n /= 10;      //  цикл до тех пор пока число не станет трехзначным
-//     }                 //  также можно: n = n / 10, убирает по 1 цифре от числа
-// Console.WriteLine(n % 10);  // результат, показывает последнюю цифру
-// }
-
-
+// Первый вариант решения задачи
 
 // using System;
 
@@ -45,7 +36,6 @@
 //             Console.WriteLine("Число не является палиндромом.");
 //         }
 //     }
-
 //     static bool IsPalindrome(int number)
 //     {
 //         string numberStr = number.ToString();
@@ -67,28 +57,32 @@
 //     }
 // }
 
-Console.Clear();
-Console.Write("Введите пятизначное число: ");
-int n = int.Parse(Console.ReadLine());
-int i = 0;
-
-while (i != 5)
-{
-    return false;
-}
-
-    if (i != i - 1)
-    {
-        Console.WriteLine("net");
-        break; // Выход из цикла
-    }
-    else if (i == i + 1)   
-    {
-        
-         Console.WriteLine("da");
-    }
-    i++;
-    return true;
 
 
+//  Второй вариант решения задачи
 
+//  bool Palindrome(int number)
+//     {
+//         int Number = number;
+//         int reversNumber = 0;
+
+//         while (number > 0)
+//         {
+//             int remainder = number % 10;
+//             reversNumber = reversNumber * 10 + remainder;
+//             number = number / 10;
+//         }
+
+//         return Number == reversNumber;
+//     }
+//      Console.WriteLine("Введите число:");
+//         int number = Convert.ToInt32(Console.ReadLine());
+
+//         if (Palindrome(number))
+//         {
+//             Console.WriteLine("Число является палиндромом");
+//         }
+//         else
+//         {
+//             Console.WriteLine("Число не является палиндромом");
+//         }
