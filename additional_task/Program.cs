@@ -27,13 +27,24 @@
 //                       1 2 3	                 6
 
 Console.Clear();
-Console.Write("Количество кустов: ");
-int N = int.Parse(Console.ReadLine()!);              // 3 <= N <= 1000; Как указать этот интервал?
-for (int i = 3; i <= 1; i++);                       
+Console.Write("Введите число: ");
+int n = int.Parse(Console.ReadLine()!);              // 3 <= N <= 1000; Как указать этот интервал?
+int[]array = new int[n];
+for (int i = 0; i <= n; i++);
+    array[i] = int.Parse(Console.ReadLine()!);                       
 
-Console.Write("Количество ягод на каждом кусте: ");  
-for (int i = 1; i <= N; i++)                         // i <= 1000    Как указать этот предел?
-Console.Write($"{i} "); 
+Console.WriteLine($"[{string.Join(", ", array)}]");  
+int max_summa = 0;
+for (int i = 0; i < array.Length; i++)                         // i <= 1000    Как указать этот предел?
+{
+    Console.WriteLine($"{i} {(i + 1) % n} {(i + 2) % n}");
+    if (max_summa < array[i] + array[(i + 1) % n] + array[(i + 2) % n])
+        max_summa = array[i] + array[(i + 1) % n] + array[(i + 2) % n];
+}
+Console.WriteLine(max_summa); 
+
+
+
 /*
 // Console.ReadLine()! = Console.Write($"{ i} ");
 string number = Console.ReadLine(($"{i} "))!;        // Почему i не  существует?
@@ -47,7 +58,8 @@ Console.WriteLine(summa);
 
 Console.Clear();
 Console.Write("Введите число: ");
-int n = int.Parse(Console.ReadLine()!);
+int n = int.Parse(Console.ReadLine()!);ad   
 Console.WriteLine($"Сумма от 1 до {n}: {((n + 1) / 2.0) * n}");
-*/
+
 Console.WriteLine($"Всего ягод: {i}");                // Почему i не  существует?
+*/
